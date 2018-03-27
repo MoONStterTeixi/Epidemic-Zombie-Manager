@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epidemic Zombie Manager", "Epidemic Zombie Manager\Epidemic Zombie Manager.csproj", "{FDA1F8DF-2D65-419E-AD69-CFEC4F2FA18C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA1F8DF-2D65-419E-AD69-CFEC4F2FA18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA1F8DF-2D65-419E-AD69-CFEC4F2FA18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA1F8DF-2D65-419E-AD69-CFEC4F2FA18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA1F8DF-2D65-419E-AD69-CFEC4F2FA18C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6C850E-9DD3-4E00-9510-B1193404638D}
+	EndGlobalSection
+EndGlobal
