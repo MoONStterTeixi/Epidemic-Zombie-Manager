@@ -53,23 +53,59 @@
       <DependentUpon>AjustesDDBB.cs</DependentUpon>
     </Compile>
     <Compile Include="Conection.cs" />
-    <Compile Include="DataClasscs.cs" />
-    <Compile Include="Form_Login.cs">
+    <Compile Include="DataClass.cs" />
+    <Compile Include="EAVouchers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Login.Designer.cs">
-      <DependentUpon>Form_Login.cs</DependentUpon>
+    <Compile Include="EAVouchers.Designer.cs">
+      <DependentUpon>EAVouchers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tickets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tickets.Designer.cs">
+      <DependentUpon>Tickets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketView.Designer.cs">
+      <DependentUpon>TicketView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vouchers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vouchers.Designer.cs">
+      <DependentUpon>Vouchers.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AjustesDDBB.resx">
       <DependentUpon>AjustesDDBB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Login.es.resx">
-      <DependentUpon>Form_Login.cs</DependentUpon>
+    <EmbeddedResource Include="EAVouchers.resx">
+      <DependentUpon>EAVouchers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_Login.resx">
-      <DependentUpon>Form_Login.cs</DependentUpon>
+    <EmbeddedResource Include="Login.es.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,6 +116,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tickets.resx">
+      <DependentUpon>Tickets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketView.resx">
+      <DependentUpon>TicketView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vouchers.resx">
+      <DependentUpon>Vouchers.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

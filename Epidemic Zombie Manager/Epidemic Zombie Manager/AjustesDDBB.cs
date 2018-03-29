@@ -46,7 +46,22 @@ namespace Epidemic_Zombie_Manager
                 tb_result.ForeColor = Color.Red;
                 tb_result.Text = "Error!";
             }
+            con.close();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ArrayList DataConection = new ArrayList();
+            DataConection.Add(tb_Server.Text);
+            DataConection.Add(tb_Port.Text);
+            DataConection.Add(tb_DataBase.Text);
+            DataConection.Add(tb_User.Text);
+            DataConection.Add(tb_Password.Text);
+            DataClass.DataConection = DataConection;
+            DataClass.con = new Conection(DataConection);
+            this.Close();
+        }
+
     }
 }
